@@ -1,5 +1,5 @@
 import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/controls/OrbitControls.js';
 
 const canvas = document.querySelector(".webgl")
 const scene = new THREE.Scene()
